@@ -15,9 +15,9 @@ public class Main {
         //-------------------------------------------------------
         //Задача 2
         //Изменение каждой переменной на +4
-        dog = dog + 4;
-        cat = cat + 4;
-        paper = paper + 4;
+        dog += 4;
+        cat += 4;
+        paper += 4;
 
         //вывод измененных переменных в консоль
         System.out.println("\nНовое значение переменной dog = " + dog +
@@ -27,9 +27,9 @@ public class Main {
         //-------------------------------------------------------
         //Задача 3
         //Уменьшение переменных на заданное число
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
+        dog -=  3.5;
+        cat -= 1.6;
+        paper -= 7639;
 
         //вывод измененных переменных в консоль
         System.out.println("\nНовое значение переменной dog = " + dog +
@@ -41,7 +41,7 @@ public class Main {
         //Объявление и инициализация новой переменной
         var friend = 19;
         System.out.println("\nЗначение переменной friend = " + friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println("Новое значение переменной friend = " + friend);
         friend = friend / 7;
         System.out.println("Новое значение переменной friend = " + friend);
@@ -51,11 +51,11 @@ public class Main {
         //Объявление и инициализация новой переменной
         var frog = 3.5;
         System.out.println("\nЗначение переменной frog = " + frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println("Новое значение переменной frog = " + frog);
         frog = frog / 3.5;
         System.out.println("Новое значение переменной frog = " + frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println("Новое значение переменной frog = " + frog);
 
         //-------------------------------------------------------
